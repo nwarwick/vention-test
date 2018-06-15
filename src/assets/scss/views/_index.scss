@@ -1,0 +1,14 @@
+.hero {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529085813/vention-assets/hero-machine_builder.jpg')no-repeat;
+  background-size: cover;
+  color: $text-white;
+  
+  .hero-content {
+    padding: 2rem;
+    width: 390px;
+      
+  }
+}
