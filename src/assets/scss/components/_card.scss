@@ -1,0 +1,51 @@
+.card {
+  @include drop-shadow;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+
+  .btn {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 180%); 
+    transition: .2s ease-in-out;
+    opacity: 0;
+  }
+
+  &:hover {
+    top: -10px;
+    background-color: #36363677;
+    cursor: pointer;
+    @include drop-shadow-hover;
+
+    .btn {
+      opacity: 1;
+    }
+
+    .card-header {
+      background-color: $dark-blue-hover;
+
+      img {
+        opacity: 0.3;
+      }
+    }
+  }
+
+
+  .card-header {
+    background-color: $dark-blue;
+    padding: 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+  .card-body {
+    background: $white;
+    padding: 1.5rem;
+  }  
+}

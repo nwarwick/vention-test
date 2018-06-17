@@ -1,14 +1,120 @@
 .hero {
   display: flex;
-  height: 60vh;
+  // height: 70vh;
+  // min-height: 500px;
+  height: 800px;
   align-items: center;
-  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529085813/vention-assets/hero-machine_builder.jpg')no-repeat;
+  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529085813/vention-assets/hero-machine_builder.jpg')no-repeat left;
   background-size: cover;
   color: $text-white;
   
   .hero-content {
-    padding: 2rem;
-    width: 390px;
-      
+    max-width: 390px;
+  }
+}
+
+.workflow {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529164313/diagram-line.png') no-repeat center;
+
+  .container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .workflow-title {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .workflow-block {
+    width: 300px;
+    text-align: center;
+  }
+
+  .workflow-block.ship {
+    margin-left: auto;
+  }
+
+  .workflow-diagram {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.features {
+  background-color: $light-blue;
+  padding: 3rem 0;
+  text-align: center;
+
+  .features-diagram {
+    width: 100%;
+  }
+}
+
+.recommended {
+  padding: 3rem 0;
+  text-align: center;
+
+  .recommended-image {
+    width: 100%;
+  }
+}
+
+.quote {
+  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529085813/vention-assets/quotes_backdrop.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+
+  blockquote {
+    color: $text-white;
+    text-align: center;
+    max-width: 600px;
+
+    .quote-content {
+      font-style: italic;
+      line-height: 1.5rem;
+      &::before {
+        content: '"'
+      }
+      &::after {
+        content: '"'
+      }
+    }
+
+    .citation-author {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .citation-logo {
+      height: 20px;
+    }
+  }
+}
+
+.resources {
+  background-color: $light-blue;
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+
+  .resources-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+    
+  .card-section {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

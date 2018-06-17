@@ -1,7 +1,6 @@
 .btn {
-  padding: .7rem 1rem .7rem; 
+  padding: .5rem 1.1rem; 
   border-radius: 5px;
-  border: none;
   color: $text-white;
   display: inline-block;
   white-space: nowrap;
@@ -10,8 +9,20 @@
 
 .btn-green {
   background-color: $green;
+  border: none;
   &:hover {
     cursor: pointer;
     background-color: $green-hover;
   }
+}
+
+.btn-white-outline {
+  border: $white solid 2px;
+  background: transparent;
+  // &:hover {
+  //   cursor: pointer;
+  //   background-color: $white;
+  //   // color: rgba(0, 0, 0, .5);
+  //   color: $dark-blue;
+  // }
 }
