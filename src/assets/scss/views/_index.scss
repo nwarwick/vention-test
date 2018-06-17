@@ -1,3 +1,4 @@
+// Main hero
 .hero {
   display: flex;
   // height: 70vh;
@@ -13,10 +14,11 @@
   }
 }
 
+// Workflow section
 .workflow {
   margin-top: 2rem;
   margin-bottom: 3rem;
-  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529164313/diagram-line.png') no-repeat center;
+  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529164313/diagram-line.png') no-repeat center 60%;
 
   .container { 
     display: flex;
@@ -45,6 +47,7 @@
   }
 }
 
+// Features section
 .features {
   background-color: $light-blue;
   padding: 3rem 0;
@@ -64,6 +67,7 @@
   }
 }
 
+// Quote section
 .quote {
   background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529085813/vention-assets/quotes_backdrop.jpg') no-repeat;
   background-size: cover;
@@ -99,6 +103,7 @@
   }
 }
 
+// Resources section
 .resources {
   background-color: $light-blue;
   padding-top: 2rem;
@@ -116,5 +121,21 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+// Media queries
+@media (max-width: 700px) {
+  .workflow {
+    background: none;
+
+    .workflow-title {
+      margin-bottom: 2rem;
+    }
+
+    .workflow-block {
+      margin: auto;
+      padding: 1rem 0;
+    }
   }
 }
