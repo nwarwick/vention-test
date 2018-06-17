@@ -5,13 +5,15 @@
   display: inline-block;
   white-space: nowrap;
   font-size: 1rem;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .btn-green {
   background-color: $green;
   border: none;
   &:hover {
-    cursor: pointer;
     background-color: $green-hover;
   }
 }
@@ -19,10 +21,4 @@
 .btn-white-outline {
   border: $white solid 2px;
   background: transparent;
-  // &:hover {
-  //   cursor: pointer;
-  //   background-color: $white;
-  //   // color: rgba(0, 0, 0, .5);
-  //   color: $dark-blue;
-  // }
 }
