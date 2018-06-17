@@ -11,83 +11,135 @@
 
 <body>
   <header class="hero">
-    <div class="hero-content">
-      <div class="hero-title">
-        <h1>Free Cloud Cad Loaded with Modular Parts That Ship Next Day</h1>
-        <p>Design yor equipment in minutes using automated connections and real time cost in Vention's MachineBuilder&trade;</p>
-      </div>
-      <div class="hero-input">
-        <input type="email" placeholder="example@company.com">
-        <button class="btn btn-green">Get Started</button>
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Free Cloud Cad Loaded with Modular Parts That Ship Next Day</h1>
+        <p class="hero-paragraph">Design your equipment in minutes using automated connections and real time cost in Vention's MachineBuilder&trade;</p>
+        <div class="hero-input">
+          <div class="input-group">
+            <input class="input" type="email" placeholder="example@company.com">
+            <button class="btn btn-green">Get Started</button>
+          </div>
+        </div>
       </div>
     </div>
 
   </header>
   <main class="index-page">
     <section class="workflow">
-      <h2>Design and Build in Minutes</h2>
-      <p>Signle digital workflow that takes you from idea through commissioned equipment.</p>
+      <div class="workflow-title">
+        <h2>Design and Build in Minutes</h2>
+        <p>Single digital workflow that takes you from idea through commissioned equipment.</p>
+      </div>
       <div class="workflow-diagram">
-        <div class="workflow-block">
+        <div class="workflow-block design">
+          <img class="features-diagram" src="./assets/img/icon_how_to.png" alt="Features image">
           <h3>Design in 3D for Free</h3>
           <p>Easy-to-use assembly CAD with embedded parts library to plan your project.</p>
         </div>
-        <div class="workflow-block">
+        <div class="workflow-block ship">
+          <img class="features-diagram" src="./assets/img/icon_how_to.png" alt="Features image">
           <h3>Order to Ship Next Day</h3>
           <p>One-click purchasing from your browser that ships next day.</p>
         </div>
-        <div class="workflow-block">
+        <div class="workflow-block receive">
+          <img class="features-diagram" src="./assets/img/icon_how_to.png" alt="Features image">
           <h3>Receive and Assemble</h3>
           <p>Engraved part numbder and standard fasteners enable fast assembly.</p>
         </div>
       </div>
     </section>
     <section class="features">
-      <h2>Key Features &amp; Benefits</h2>
-      <img class="features-diagram" src="./assets/img/icon_how_to.png" alt="Features image">
+      <div class="container">
+        <h2 class="features-title">Key Features &amp; Benefits</h2>
+        <img class="features-diagram" src="https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529115802/features.png" alt="Features image">
+      </div>
+
     </section>
     <section class="recommended">
-      <h2>Recommended for You</h2>
+      <div class="container">
+        <h2 class="recommended-title">Recommended for You</h2>
+        <img class="recommended-image" src="./assets/img/recommended.png" alt="Recommended image">
+      </div>
     </section>
     <div class="quote">
+
       <blockquote>
-        As part of an R&amp;D project, my timelines were limited. Vention was able to supply the equipment I needed, delivered in
-        under two days. And the fit &amp; finish was exceptional.
-        <footer>
-          Chad Green
-          <br>
-          <small>Vice President, Westboro Photonics</small>
-          <br>
-          <img src="./assets/img/logo_westboro.png" alt="Westboro Photonics logo">
+        <span class="quote-content text-medium">
+          As part of an R&amp;D project, my timelines were limited. Vention was able to supply the equipment I needed, delivered in
+          under two days. And the fit &amp; finish was exceptional.
+        </span>
+        <footer class="citation">
+          <div class="citation-author">
+            Chad Green
+            <br>
+            <small class="text-small">Vice President, Westboro Photonics</small>
+            <br>
+          </div>
+          <img class="citation-logo" src="./assets/img/logo_westboro.png" alt="Westboro Photonics logo">
         </footer>
       </blockquote>
+
     </div>
     <div class="resources">
-      <div class="resource-row">
-        <div class="resource-card">
-          <img src="./assets/img/icon_assembly_library.png" alt="Designs image">
-          <span>Designs:</span> Assembly Library
-        </div>
-        <div class="resource-card">
-          <img src="./assets/img/icon_assembly_library.png" alt="Designs image">
-          <span>Designs:</span> Assembly Library
-        </div>
-        <div class="resource-card">
-          <img src="./assets/img/icon_assembly_library.png" alt="Designs image">
-          <span>Designs:</span> Assembly Library
-        </div>
-        <div class="resource-card">
-          <img src="./assets/img/icon_assembly_library.png" alt="Designs image">
-          <span>Designs:</span> Assembly Library
-        </div>
-        <div class="resource-card">
-          <img src="./assets/img/icon_assembly_library.png" alt="Designs image">
-          <span>Designs:</span> Assembly Library
+      <div class="container">
+        <h2 class="resources-title">Resources</h2>
+        <div class="card-section">
+          <div class="card">
+            <div class="card-header">
+              <img src="./assets/img/icon_assembly_library.png" alt="Designs image">
+            </div>
+            <button class="btn btn-white-outline">Browse</button>
+            <div class="card-body">
+              <span>Designs:</span> Assembly Library
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="./assets/img/icon_parts_library.png" alt="Designs image">
+            </div>
+            <button class="btn btn-white-outline">Browse</button>
+            <div class="card-body">
+              <span>Designs:</span> Assembly Library
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="./assets/img/icon_video_library.png" alt="Designs image">
+            </div>
+            <button class="btn btn-white-outline">Browse</button>
+            <div class="card-body">
+              <span>Designs:</span> Assembly Library
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <img src="./assets/img/icon_white_papers.png" alt="Designs image">
+            </div>
+            <button class="btn btn-white-outline">Browse</button>
+            <div class="card-body">
+              <span>Designs:</span> Assembly Library
+            </div>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-header">
+                <img src="./assets/img/icon_how_to.png" alt="Designs image">
+              </div>
+              <button class="btn btn-white-outline">Browse</button>
+              <div class="card-body">
+                <span>Designs:</span> Assembly Library
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="resource-row"></div>
+    </div>
+
+    <div class="resource-row"></div>
     </div>
   </main>
+  <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
