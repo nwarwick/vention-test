@@ -1,18 +1,3 @@
-// Main hero
-.hero {
-  display: flex;
-  // height: 70vh;
-  // min-height: 500px;
-  height: 800px;
-  align-items: center;
-  background: url('https://res.cloudinary.com/dbiyjyi0a/image/upload/v1529085813/vention-assets/hero-machine_builder.jpg')no-repeat left;
-  background-size: cover;
-  color: $text-white;
-  
-  .hero-content {
-    max-width: 390px;
-  }
-}
 
 // Workflow section
 .workflow {
@@ -75,32 +60,6 @@
   flex-direction: column;
   align-items: center;
   padding: 3rem 0;
-
-  blockquote {
-    color: $text-white;
-    text-align: center;
-    max-width: 600px;
-
-    .quote-content {
-      font-style: italic;
-      line-height: 1.5rem;
-      &::before {
-        content: '"'
-      }
-      &::after {
-        content: '"'
-      }
-    }
-
-    .citation-author {
-      margin-top: 1.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .citation-logo {
-      height: 20px;
-    }
-  }
 }
 
 // Resources section

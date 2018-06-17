@@ -1,0 +1,25 @@
+blockquote {
+  color: $text-white;
+  text-align: center;
+  max-width: 600px;
+
+  .quote-content {
+    font-style: italic;
+    line-height: 1.5rem;
+    &::before {
+      content: '"'
+    }
+    &::after {
+      content: '"'
+    }
+  }
+
+  .citation-author {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .citation-logo {
+    height: 20px;
+  }
+}
