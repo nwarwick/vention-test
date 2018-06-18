@@ -76,8 +76,8 @@
   .card-section {
     display: grid;
     grid-gap: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
   }
