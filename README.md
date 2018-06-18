@@ -1,5 +1,5 @@
 # Vention Interview Project
-A basic landing page for a corporate website containing a responsive layout and animated cards.
+A landing page for a website containing a responsive layout and animated cards.
 
 ## Instructions
 1. Clone the repository and navigate to the root project directory.
