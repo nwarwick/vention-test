@@ -19,6 +19,8 @@
     "url": "https://github.com/nwarwick/vention-test/issues"
   },
   "homepage": "https://github.com/nwarwick/vention-test#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
   "dependencies": {}
 }
